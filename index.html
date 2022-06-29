@@ -10,19 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="icon" href="./images/skt.ico">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body class="gridIndex">
 
-    <header>
-        <h1>Faker</h1>
+    <header class="container-fluid rojo">
+        
+        <h1 >Faker</h1>
+        
         <nav>
-            <ul>
-                <li><a href="index.html"> Inicio</a></li>
-                <li><a href="./pages/mejores-jugadas.html"> Mejores jugadas</a></li>
-                <li><a href="./pages/campeonatos-ganados.html"> Campeonatos Ganados</a></li>
-                <li><a href="./pages/mejores-champs.html"> Mejores Champs</a></li>
-                <li><a href="./pages/contacto.html"> Contacto</a></li>
+            <ul class="row">
+                <li class="col rojo"><a href="index.html"> Inicio</a></li>
+                <li class="col rojo"><a href="./pages/mejores-jugadas.html"> Mejores jugadas</a></li>
+                <li class="col rojo"><a href="./pages/campeonatos-ganados.html"> Campeonatos Ganados</a></li>
+                <li class="col rojo"><a href="./pages/mejores-champs.html"> Mejores Champs</a></li>
+                <li class="col rojo"><a href="./pages/contacto.html"> Contacto</a></li>
             </ul>
         </nav>    
     </header>
@@ -30,14 +34,15 @@
         <section class="seccion-1">
             <h2>"El rey demonio" </h2>
             
-            <article>
+            <article >
                 <h3>¿Quién es Faker?</h3>
-                <div class="parrafo">
-                <p>Lee Sang-Hyeok, más conocido como Faker, es un jugador profesional surcoreano de League of Legends. Conocido anteriormente como GoJeonPa en el servidor coreano, fue contratado por SK Telecom de la LCK en 2013 y desde entonces ha jugado como "midlaner" del equipo. Es ampliamente considerado como el mejor jugador de competitivo de League of Legends de todos los tiempos.
+                <div class="row">
+                <p class="col-5">Lee Sang-Hyeok, más conocido como Faker, es un jugador profesional surcoreano de League of Legends. Conocido anteriormente como GoJeonPa en el servidor coreano, fue contratado por SK Telecom de la LCK en 2013 y desde entonces ha jugado como "midlaner" del equipo. Es ampliamente considerado como el mejor jugador de competitivo de League of Legends de todos los tiempos.
 
                 Faker es reconocido por su gran dominio de las mecánicas del juego y amplia versatilidad de campeones.
                 Faker nació el 7 de mayo de 1996 en Seúl. Él y su hermano fueron criados por sus abuelos y su padre, Lee Kyung-joon en el distrito de Gangseo-gu, Seúl. A Faker siempre le encantaron los rompecabezas y los videojuegos, incluyendo los "custom maps" del Warcraft III y el MOBA "Chaos". Descubrió League of Legends a finales de 2011, y pronto se volvió muy bueno en el juego. Dejó sus estudios en el instituto para poder unirse a SKT.
                 </p>
+                <img class="col " width="500px" height="500px" src="./images/faker.jpg" alt="imagen de faker">
                 </div>
                 
             </article>
@@ -46,8 +51,11 @@
             
     </main>
     <div class="imgfaker">
-        <img  width="758,51" height="600" src="./images/faker.jpg" alt="imagen de faker">
+        
         </div>
-    <footer>Copyright Federico Silvera <a href="https://www.youtube.com/c/SKTT1" target="_blank">  <i class="bi-youtube"></i> </a> <a href="https://www.instagram.com/t1lol/?hl=es" target="_blank"> <i class="bi-instagram"></i> </a> <a href="https://www.twitch.tv/faker" target="_blank"> <i class="bi-twitch"></i> </a>  <img width="30" src="./images/skt.jpg" alt="logo de skt"></footer>
+    <footer class="container-fluid rojo">Copyright Federico Silvera <a href="https://www.youtube.com/c/SKTT1" target="_blank">  <i class="bi-youtube"></i> </a> <a href="https://www.instagram.com/t1lol/?hl=es" target="_blank"> <i class="bi-instagram"></i> </a> <a href="https://www.twitch.tv/faker" target="_blank"> <i 
+    class="bi-twitch"></i> </a>  <img width="30" src="./images/skt.jpg" alt="logo de skt"></footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
