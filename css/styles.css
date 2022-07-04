@@ -144,6 +144,11 @@ footer{
     grid-area: footer;
 }
 }
+@media(max-width:814px){
+    .gridCG{
+        color: white;
+    }
+}
 /*Transformaciones*/
 nav ul li:hover{
     transform: scale(1,3); 
